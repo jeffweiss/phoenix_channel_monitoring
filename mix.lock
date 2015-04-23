@@ -7,6 +7,7 @@
   "phoenix_ecto": {:hex, :phoenix_ecto, "0.3.1"},
   "phoenix_live_reload": {:hex, :phoenix_live_reload, "0.3.1"},
   "plug": {:hex, :plug, "0.11.3"},
+  "plug_channel_monitoring": {:git, "git://github.com/jeffweiss/plug_channel_monitoring.git", "6e3e76a7c45bdc2c28480d80d98a9f673ed2ad26", []},
   "poison": {:hex, :poison, "1.4.0"},
   "poolboy": {:hex, :poolboy, "1.4.2"},
   "postgrex": {:hex, :postgrex, "0.8.1"},

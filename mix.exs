@@ -29,6 +29,7 @@ defmodule PhoenixChannelMonitoring.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [{:phoenix, "~> 0.11"},
+     {:plug_channel_monitoring, github: "jeffweiss/plug_channel_monitoring"},
      {:phoenix_ecto, "~> 0.3"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_live_reload, "~> 0.3"},

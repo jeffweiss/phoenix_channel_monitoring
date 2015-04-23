@@ -14,6 +14,7 @@ defmodule PhoenixChannelMonitoring.Endpoint do
   end
 
   plug Plug.Logger
+  plug Plug.ChannelMonitoring, endpoint_module: PhoenixChannelMonitoring.Endpoint
 
   plug Plug.Parsers,
     parsers: [:urlencoded, :multipart, :json],

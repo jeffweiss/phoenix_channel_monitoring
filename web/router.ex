@@ -1,6 +1,10 @@
 defmodule PhoenixChannelMonitoring.Router do
   use Phoenix.Router
 
+  socket "/ws", PhoenixChannelMonitoring do
+    channel "telemetry:*", TelemetryChannel
+  end
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
